@@ -18,7 +18,7 @@ public class Left_rotate {
 			 temp[i] = array[i];
 		 }
 		 for(int i=d;i<n; i++) {
-			 array[i-d]=array[i];
+			 array[i-d]=array[i]; 
 		 }
 		 for(int i=0; i<d; i++) {
 			 array[n-d+i] = temp[i];
