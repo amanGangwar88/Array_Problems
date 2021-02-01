@@ -12,8 +12,9 @@ public class Efficient_approach {
 			 arr[i]=sc.nextInt();
 		 }
 		  int leader = arr[n-1];
-		  for(int i=n-1; i>=0; i-- ) {
-			  if(arr[i] > arr[leader]) {
+		  System.out.println(arr[n-1]);
+		  for(int i=n-2; i>=0; i-- ) {
+			  if(arr[i] > leader) {
 				  leader = arr[i];
 				  System.out.println(arr[i]);
 			  }
