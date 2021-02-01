@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// Finnd Maimum Difference in element Arr[j]-Arr[i] where j>i
 public class Naive_Approach {
 
 	public static void main(String[] args) {
