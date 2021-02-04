@@ -21,7 +21,7 @@ public class Minimum_Consecutive_Flips {
 	    		  }
 	    	  }
 	      }
-	      if(arr[n - 1] != arr[0])
+	      if(arr[n-1] != arr[0])
 	            System.out.println(n-1);
 	    }
 
